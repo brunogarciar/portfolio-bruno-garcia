@@ -23,7 +23,7 @@ export function ContactSection() {
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center"
         style={{ opacity: inView ? 1 : 0, transform: inView ? "translateY(0)" : "translateY(30px)", transition: "opacity 0.8s ease, transform 0.8s ease" }}>
         <p className="font-[family-name:var(--font-jetbrains)] text-[11px] text-[#3dd68c] tracking-[0.2em] mb-5">
-          // CONTATO
+           CONTATO
         </p>
               <h2 className="font-[family-name:var(--font-Space_Grotesk)] font-extrabold text-white leading-tight mb-5"
           style={{ fontSize: "clamp(32px, 6vw, 64px)", letterSpacing: "-0.02em" }}>

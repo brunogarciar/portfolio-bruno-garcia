@@ -18,9 +18,9 @@ export function ProjectsSection() {
         <div style={{ opacity: inView ? 1 : 0, transform: inView ? "translateY(0)" : "translateY(20px)", transition: "opacity 0.6s ease, transform 0.6s ease" }}
           className="mb-14">
           <p className="font-[family-name:var(--font-jetbrains)] text-[11px] text-[#3dd68c] tracking-[0.2em] mb-3">
-            // PROJETOS
+             PROJETOS
           </p>
-                  <h2 className="font-[family-name:var(--font-Space_Grotesk)] font-extrabold text-white leading-none"
+                <h2 className="font-[family-name:var(--font-Space_Grotesk)] font-extrabold text-white leading-none"
             style={{ fontSize: "clamp(28px, 4vw, 52px)", letterSpacing: "-0.02em" }}>
             O que estou construindo
           </h2>

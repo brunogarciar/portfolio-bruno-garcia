@@ -18,7 +18,7 @@ export function AboutSection() {
         {/* Bio */}
         <div style={{ opacity: inView ? 1 : 0, transform: inView ? "translateY(0)" : "translateY(24px)", transition: "opacity 0.7s ease, transform 0.7s ease" }}>
           <p className="font-[family-name:var(--font-jetbrains)] text-[11px] text-[#3dd68c] tracking-[0.2em] mb-4">
-            // SOBRE
+             SOBRE
           </p>
                   <h2 className="font-[family-name:var(--font-Space_Grotesk)] font-extrabold text-white leading-tight mb-6"
             style={{ fontSize: "clamp(28px, 4vw, 44px)", letterSpacing: "-0.02em" }}>
@@ -35,7 +35,7 @@ export function AboutSection() {
         {/* Atualmente estudando */}
         <div style={{ opacity: inView ? 1 : 0, transform: inView ? "translateY(0)" : "translateY(24px)", transition: "opacity 0.7s ease 0.15s, transform 0.7s ease 0.15s" }}>
           <p className="font-[family-name:var(--font-jetbrains)] text-[11px] text-[#3dd68c] tracking-[0.2em] mb-4">
-            // ATUALMENTE ESTUDANDO
+             ATUALMENTE ESTUDANDO
           </p>
           <div className="flex flex-col gap-3">
             {STUDYING.map((item, i) => (
