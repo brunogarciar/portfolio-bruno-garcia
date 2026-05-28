@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #3dd68c;
+  --color-brand-dim: rgba(61,214,140,0.12);
+  --color-brand-hover: #34c97d;
+  --color-bg-primary: #0b0e0c;
+  --color-bg-secondary: #0f1410;
+  --color-bg-footer: #090c0a;
+
+  --font-display: "Syne", "Arial Narrow", sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--color-bg-primary);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection { background-color: rgba(61,214,140,0.2); color: white; }
+}
+
+@layer utilities {
+  .font-display  { font-family: var(--font-display); }
+  .font-mono-custom { font-family: var(--font-mono); }
+  .text-brand    { color: var(--color-brand); }
+  .bg-brand      { background-color: var(--color-brand); }
+
+  .animate-pulse-dot { animation: pulseDot 2s infinite; }
+  .animate-fade-up   { animation: fadeUp 0.6s ease forwards; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
