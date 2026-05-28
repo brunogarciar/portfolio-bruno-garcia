@@ -5,7 +5,7 @@ export default function NotFound() {
     <main className="min-h-screen flex flex-col items-center justify-center text-center px-6"
       style={{ background: "#0b0e0c" }}>
       <p className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] mb-4 text-[#3dd68c]">
-        // ERRO 404
+         ERRO 404
       </p>
       <h1 className="font-[family-name:var(--font-syne)] font-extrabold text-white leading-none mb-6"
         style={{ fontSize: "clamp(64px, 12vw, 120px)", letterSpacing: "-0.03em" }}>
