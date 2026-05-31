@@ -1,36 +1,34 @@
-import type { NavLink, Project, SkillCategory, StudyItem } from "@/types";
-
 export const OWNER = {
   name: "Bruno Garcia",
   role: "Estudante de Ciência da Computação",
-    tagline: "Movido pela lógica, guiado pela curiosidade e comprometido com o aprendizado contínuo.",
+  tagline: "Construindo coisas com Python, JavaScript e muita curiosidade.",
   bio: "Apaixonado por resolver problemas reais com código limpo. Foco em automação, APIs e Inteligência Artificial — sempre aprendendo, sempre construindo.",
   github: "https://github.com/brunogarciar",
   linkedin: "https://www.linkedin.com/in/bruno-reis-garcia/",
   githubUser: "brunogarciar",
 };
 
-export const NAV_LINKS: NavLink[] = [
+export const NAV_LINKS = [
   { label: "Sobre", href: "#sobre" },
   { label: "Skills", href: "#skills" },
   { label: "Projetos", href: "#projetos" },
   { label: "Contato", href: "#contato" },
 ];
 
-export const SKILL_CATEGORIES: SkillCategory[] = [
+export const SKILL_CATEGORIES = [
   {
     title: "Linguagens",
     skills: [
       { name: "Python", icon: "🐍", level: "Avançado" },
-        { name: "JavaScript", icon: "⚡", level: "Intermediário" },
+      { name: "JavaScript", icon: "⚡", level: "Intermediário" },
     ],
   },
   {
-    title: "DEV & APIs",
+    title: "Backend & APIs",
     skills: [
       { name: "APIs REST", icon: "◈", level: "Intermediário" },
       { name: "Automação", icon: "⬡", level: "Avançado" },
-      { name: "Full Stack Dev", icon: "⬟", level: "Aprendendo" },
+      { name: "Backend Dev", icon: "⬟", level: "Aprendendo" },
     ],
   },
   {
@@ -49,7 +47,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
 ];
 
-export const PROJECTS: Project[] = [
+export const PROJECTS = [
   {
     title: "Automação com Python",
     desc: "Scripts de automação para tarefas repetitivas, manipulação de arquivos e web scraping.",
@@ -71,9 +69,9 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-export const STUDYING: StudyItem[] = [
+export const STUDYING = [
   { topic: "Consumo e Extração de APIs", icon: "◈" },
   { topic: "Desenvolvimento Backend", icon: "⬟" },
   { topic: "Inteligência Artificial", icon: "◉" },
-  { topic: "JavaScript Intermediário", icon: "⚡" },
+  { topic: "JavaScript avançado", icon: "⚡" },
 ];
