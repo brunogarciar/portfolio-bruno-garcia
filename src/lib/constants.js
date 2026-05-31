@@ -28,7 +28,7 @@ export const SKILL_CATEGORIES = [
     skills: [
       { name: "APIs REST", icon: "◈", level: "Intermediário" },
       { name: "Automação", icon: "⬡", level: "Avançado" },
-      { name: "Full Stack DEV", icon: "⬟", level: "Aprendendo" },
+      { name: "Full Stack", icon: "⬟", level: "Aprendendo" },
     ],
   },
   {
