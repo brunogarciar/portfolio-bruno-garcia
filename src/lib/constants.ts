@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
 
 export const STUDYING: StudyItem[] = [
   { topic: "Consumo e Extração de APIs", icon: "◈" },
-  { topic: "Desenvolvimento Backend", icon: "⬟" },
+  { topic: "Desenvolvimento Full Stack", icon: "⬟" },
   { topic: "Inteligência Artificial", icon: "◉" },
   { topic: "JavaScript Intermediário", icon: "⚡" },
 ];
