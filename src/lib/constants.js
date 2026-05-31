@@ -24,11 +24,11 @@ export const SKILL_CATEGORIES = [
     ],
   },
   {
-    title: "Backend & APIs",
+    title: "DEV & APIs",
     skills: [
       { name: "APIs REST", icon: "◈", level: "Intermediário" },
       { name: "Automação", icon: "⬡", level: "Avançado" },
-      { name: "Backend Dev", icon: "⬟", level: "Aprendendo" },
+      { name: "Full Stack DEV", icon: "⬟", level: "Aprendendo" },
     ],
   },
   {
@@ -73,5 +73,5 @@ export const STUDYING = [
   { topic: "Consumo e Extração de APIs", icon: "◈" },
   { topic: "Desenvolvimento Backend", icon: "⬟" },
   { topic: "Inteligência Artificial", icon: "◉" },
-  { topic: "JavaScript avançado", icon: "⚡" },
+  { topic: "JavaScript Intermediário", icon: "⚡" },
 ];
