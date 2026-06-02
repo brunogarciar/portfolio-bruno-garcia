@@ -1,7 +1,7 @@
 export const OWNER = {
   name: "Bruno Garcia",
   role: "Estudante de Ciência da Computação",
-  tagline: "Construindo coisas com Python, JavaScript e muita curiosidade.",
+  tagline: "Construindo coisas com Python.",
   bio: "Apaixonado por resolver problemas reais com código limpo. Foco em automação, APIs e Inteligência Artificial — sempre aprendendo, sempre construindo.",
   github: "https://github.com/brunogarciar",
   linkedin: "https://www.linkedin.com/in/bruno-reis-garcia/",
@@ -20,14 +20,14 @@ export const SKILL_CATEGORIES = [
     title: "Linguagens",
     skills: [
       { name: "Python", icon: "🐍", level: "Avançado" },
-      { name: "JavaScript", icon: "⚡", level: "Intermediário" },
+    
     ],
   },
   {
     title: "DEV & APIs",
     skills: [
       { name: "APIs REST", icon: "◈", level: "Intermediário" },
-      { name: "Automação", icon: "⬡", level: "Avançado" },
+        { name: "Automação", icon: "⬡", level: "Intermediário" },
       { name: "Full Stack", icon: "⬟", level: "Aprendendo" },
     ],
   },
@@ -73,5 +73,5 @@ export const STUDYING = [
   { topic: "Consumo e Extração de APIs", icon: "◈" },
   { topic: "Desenvolvimento Backend", icon: "⬟" },
   { topic: "Inteligência Artificial", icon: "◉" },
-  { topic: "JavaScript Intermediário", icon: "⚡" },
+  
 ];
