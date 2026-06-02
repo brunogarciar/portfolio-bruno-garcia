@@ -16,24 +16,24 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Bruno Garcia — Desenvolvedor Python & JavaScript",
+    default: "Bruno Garcia — Desenvolvedor Python",
     template: "%s | Bruno Garcia",
   },
   description:
-    "Estudante de Ciência da Computação focado em Python, JavaScript, Automação, APIs e Inteligência Artificial.",
-  keywords: ["Bruno Garcia", "Python", "JavaScript", "portfólio", "desenvolvedor", "automação", "IA"],
+    "Estudante de Ciência da Computação focado em Python, Automação, APIs e Inteligência Artificial.",
+  keywords: ["Bruno Garcia", "Python", "portfólio", "desenvolvedor", "automação", "IA"],
   authors: [{ name: "Bruno Garcia", url: "https://github.com/brunogarciar" }],
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: "Bruno Garcia",
-    title: "Bruno Garcia — Desenvolvedor Python & JavaScript",
-    description: "Estudante de Ciência da Computação focado em Python, JavaScript e IA.",
+    title: "Bruno Garcia — Desenvolvedor Python",
+    description: "Estudante de Ciência da Computação focado em Python e IA.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bruno Garcia — Desenvolvedor Python & JavaScript",
-    description: "Estudante de Ciência da Computação focado em Python, JavaScript e IA.",
+    title: "Bruno Garcia — Desenvolvedor Python",
+    description: "Estudante de Ciência da Computação focado em Python, IA.",
   },
   robots: { index: true, follow: true },
 };
