@@ -52,7 +52,7 @@ export function HeroSection() {
           className="font-[family-name:var(--font-jetbrains)] text-[#3dd68c] mb-5 tracking-wide"
           style={{ fontSize: "clamp(13px, 2vw, 16px)", ...fade(200) }}
         >
-          Estudante de Ciência da Computação &nbsp;·&nbsp; Python &amp; JavaScript
+          Estudante de Ciência da Computação &nbsp;·&nbsp; Python 
         </p>
 
         {/* Bio */}
